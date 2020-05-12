@@ -1,0 +1,14 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "MERN Back-end for Rebuild of Robust Public Distribution System (Unnat Bharat Abhyan Project) with MERN Stack + Web3 + Etherium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "teknicus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
