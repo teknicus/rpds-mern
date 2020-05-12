@@ -245,7 +245,7 @@ console.log(version);
 
 //rpds.methods['findPerson(uint)'](111122223333);
 
-rpds.methods
+/* rpds.methods
   .findPerson(333344445555)
   .call({ from: "0xC1945D3120A088246b61ac2b517f54e29106Ea20" }, function (
     error,
@@ -254,9 +254,10 @@ rpds.methods
     if (!error) {
       console.log(result); //console.log(JSON.stringify(result));
       //var person = JSON.parse(result);
-      ``;
+      let id = result[0];
+      console.log("User ID: " + id);
     } else console.error(error);
-  });
+  }); */
 
 /*
         rpds.methods
@@ -266,8 +267,9 @@ rpds.methods
             console.log(receipt); // receipt can also be a new contract instance, when coming from a "contract.deploy({...}).send()"
           });
 */
-/*        rpds.methods.transactKerosene(333344445555,2).send({from: '0xDB49c393EF8b701bEeB169364ecED8c98Bc23146'})
-                    .then(function(receipt){
-                        console.log(receipt);// receipt can also be a new contract instance, when coming from a "contract.deploy({...}).send()"
-                    });
-        */
+rpds.methods
+  .transactRice(12345, 2)
+  .send({ from: "0xC1945D3120A088246b61ac2b517f54e29106Ea20" })
+  .then(function (receipt) {
+    console.log(receipt); // receipt can also be a new contract instance, when coming from a "contract.deploy({...}).send()"
+  });
