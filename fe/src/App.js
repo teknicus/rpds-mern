@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 /* import React from "react";
+=======
+import React from "react";
+import Test from "./qr";
+>>>>>>> 3979530e7357e526c6088ff51373c7e8af55a93e
 
 function App() {
-  return <div className="App">Hello World</div>;
+  return <div className="App"></div>;
 }
 
 export default App;
