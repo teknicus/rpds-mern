@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import QrReader from "react-qr-scanner";
 
-class Test extends Component {
+export class Qr extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,12 +21,11 @@ class Test extends Component {
   }
   render() {
     const previewStyle = {
-      height: 240,
-      width: 320,
+      width: "30vw",
+      margin: "15px",
     };
-
     return (
-      <div>
+      <div className="center">
         <QrReader
           delay={this.state.delay}
           style={previewStyle}
@@ -39,4 +38,4 @@ class Test extends Component {
   }
 }
 
-export default Test;
+export default Qr;
