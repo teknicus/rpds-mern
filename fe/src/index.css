@@ -13,6 +13,7 @@ body {
   min-height: 100%;
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 
 .authBox {
   min-height: 50vh;
@@ -51,3 +52,5 @@ input[type="password"]:not(.browser-default):focus:not([readonly]) + label {
   color: #ec407a !important;
 >>>>>>> 3979530e7357e526c6088ff51373c7e8af55a93e
 }
+=======
+>>>>>>> parent of a4996bb... QR embedded

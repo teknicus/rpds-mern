@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* import React from "react";
 =======
 import React from "react";
@@ -25,6 +26,12 @@ class App extends Component {
       </div>
     );
   }
+=======
+import React from "react";
+
+function App() {
+  return <div className="App">He World</div>;
+>>>>>>> parent of a4996bb... QR embedded
 }
 
 export default App;
