@@ -12,3 +12,14 @@ body {
   background-color: #ffffff;
   min-height: 100%;
 }
+
+.authBox {
+  min-height: 50vh;
+}
+
+.qrBox {
+  width: 100px;
+}
+.card-offset {
+  margin-top: 20px;
+}
