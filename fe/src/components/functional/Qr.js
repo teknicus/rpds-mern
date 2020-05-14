@@ -21,7 +21,7 @@ export class Qr extends Component {
   }
   render() {
     const previewStyle = {
-      width: "100%",
+      width: "30vw",
       margin: "15px",
     };
     return (
